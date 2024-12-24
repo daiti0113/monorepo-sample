@@ -22,6 +22,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <h1 className="text-3xl font-bold animate-bounce">Sample Monorepo App</h1>
         <ThemeImage
           className={styles.logo}
           srcLight="turborepo-dark.svg"
@@ -63,7 +64,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Button appName="web" className={styles.secondary}>
+        <Button appName="web">
           Open alert
         </Button>
       </main>
